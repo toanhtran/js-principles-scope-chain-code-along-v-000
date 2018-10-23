@@ -13,8 +13,8 @@ function overWriteBestCustomer() {
   bestCustomer = 'maybe bob';
 }
 
-function congratulatCustomer() {
-  return `congrats ${favoriteCustomer}`
+function reassignLeastFavorite() {
+  leastFavoriteCustomer = 'george'
 }
 
 function attemptTwoFavoriteCustomers() {
