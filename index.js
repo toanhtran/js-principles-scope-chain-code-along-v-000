@@ -12,3 +12,12 @@ function setBestCustomer() {
 function overWriteBestCustomer() {
   bestCustomer = 'maybe bob';
 }
+
+function congratulatCustomer() {
+  return `congrats ${favoriteCustomer}`
+}
+
+function attemptTwoFavoriteCustomers() {
+  let favoriteCustomer = 'mo'
+  let favoriteCustomer = 'curly'
+}
